@@ -8,13 +8,13 @@
 <h2 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h2>
 <h2 align="center"><strong>Carrera de Ingeniería de Software</strong></h2>
 
-<h2 align="center"><strong>1ASI0729</strong></h2>
-<h2 align="center"><strong>Desarrollo de Aplicaciones Open Source</strong></h2>
+<h2 align="center"><strong>1ASI0730</strong></h2>
+<h2 align="center"><strong>Aplicaciones Web</strong></h2>
 <h2 align="center">NRC</h2>
-<h2 align="center"><strong>7760</strong></h2>
+<h2 align="center"><strong>8137</strong></h2>
 <h2 align="center"><strong>Informe del Trabajo Final</strong></h2>
 <h2 align="center">Docente</h2>
-<h2 align="center"><strong>Flores Moroco, Juan Antonio</strong></h2>
+<h2 align="center"><strong>Mori Paiva, Hugo Allan</strong></h2>
 <h2 align="center">Equipo</h2>
 <h2 align="center"><strong>Axiom</strong></h2>
 <h2 align="center">Proyecto</h2>
