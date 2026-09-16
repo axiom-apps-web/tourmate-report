@@ -58,7 +58,7 @@ Se utilizarán dos tipografías principales: **Inter** y **Montserrat**.
 
 ##### 4. Colors
 
-La paleta de colores de **TourMate** ha sido definida considerando el contexto del turismo de aventura y las necesidades de interacción de sus usuarios. Los colores principales buscan transmitir naturaleza, confianza y seguridad, mientras que los colores complementarios permiten diferenciar acciones, alertas, información y estados dentro de la plataforma.
+La paleta de colores de TourMate ha sido definida considerando el contexto del turismo de aventura y las necesidades de interacción de sus usuarios. Los colores principales buscan transmitir naturaleza, confianza y seguridad, mientras que los colores complementarios permiten diferenciar acciones, alertas, información y estados dentro de la plataforma.
 
 El uso consistente de esta paleta permitirá mantener una identidad visual reconocible tanto en la landing page como en la aplicación web, facilitando además la interpretación rápida de información relacionada con rutas, expediciones, monitoreo y situaciones de riesgo.
 
@@ -98,7 +98,7 @@ Este sistema permite mantener una jerarquía visual clara y evita la concentraci
 
 #### 6. Tone
 
-El tono de comunicación de TourMate será **claro, confiable, cercano y orientado a la seguridad**. Debido a que el sistema será utilizado tanto por turistas como por agencias y operadores turísticos, los mensajes deben ser comprensibles y permitir identificar rápidamente el estado de una actividad o la acción que debe realizarse.
+El tono de comunicación de TourMate será claro, confiable, cercano y orientado a la seguridad. Debido a que el sistema será utilizado tanto por turistas como por agencias y operadores turísticos, los mensajes deben ser comprensibles y permitir identificar rápidamente el estado de una actividad o la acción que debe realizarse.
 
 TourMate busca transmitir:
 
@@ -112,9 +112,9 @@ Se evitará un tono excesivamente técnico o alarmista. En situaciones críticas
 
 #### 7. Language
 
-El lenguaje utilizado en TourMate será **directo, breve y orientado a la acción**, permitiendo que los usuarios comprendan rápidamente la información presentada durante la planificación y desarrollo de una experiencia de turismo de aventura.
+El lenguaje utilizado en TourMate será directo, breve y orientado a la acción, permitiendo que los usuarios comprendan rápidamente la información presentada durante la planificación y desarrollo de una experiencia de turismo de aventura.
 
-Debido a que TourMate está dirigido tanto a turistas nacionales como extranjeros, la interfaz estará preparada para ofrecer contenido en **español e inglés**, manteniendo consistencia en términos, etiquetas, botones, alertas y mensajes del sistema.
+Debido a que TourMate está dirigido tanto a turistas nacionales como extranjeros, la interfaz estará preparada para ofrecer contenido en español e inglés, manteniendo consistencia en términos, etiquetas, botones, alertas y mensajes del sistema.
 
 Los mensajes seguirán los siguientes criterios:
 
