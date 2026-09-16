@@ -135,3 +135,68 @@ Este enfoque busca reducir la carga cognitiva del usuario y facilitar el acceso 
 
 #### 4.1.2. Web Style Guidelines
 
+Las Web Style Guidelines de TourMate establecen los estándares visuales y de interacción que serán aplicados en la Landing Page y la Web Application. Estas pautas permiten mantener una experiencia consistente, clara y adaptable a diferentes tamaños de pantalla, aplicando los principios definidos previamente en las General Style Guidelines.
+
+El diseño web priorizará la facilidad de navegación, la correcta jerarquización de la información y la rápida identificación de elementos relacionados con tours, expediciones, rutas, participantes, checkpoints y alertas.
+
+##### 1. Responsive Design
+
+Las interfaces web de TourMate seguirán un enfoque Responsive Web Design, permitiendo que el contenido y los componentes se adapten a diferentes tamaños de pantalla sin afectar la comprensión de la información ni el acceso a las funcionalidades principales.
+
+Se considerarán los siguientes rangos como referencia:
+
+- **Mobile:** hasta 767 px.
+- **Tablet:** desde 768 px hasta 1023 px.
+- **Desktop:** desde 1024 px.
+
+En dispositivos de escritorio se aprovechará el espacio disponible para presentar información de gestión y monitoreo de manera organizada. En dispositivos móviles, los componentes se reorganizarán principalmente en una sola columna, priorizando información esencial como rutas, progreso del recorrido, checkpoints y alertas.
+
+Los elementos interactivos mantendrán dimensiones y separaciones adecuadas para facilitar su utilización mediante mouse o pantallas táctiles.
+
+##### 2. Visual Components
+
+Los componentes de la interfaz mantendrán los colores, tipografías y espaciados establecidos en las General Style Guidelines, permitiendo conservar una identidad visual consistente en las diferentes vistas de TourMate.
+
+Los principales componentes serán:
+
+- **Primary Buttons:** utilizados para acciones principales como "Iniciar recorrido", "Crear tour" o "Confirmar".
+- **Secondary Buttons:** utilizados para acciones complementarias como "Ver detalles", "Volver" o "Cancelar".
+- **Cards:** permitirán organizar información relacionada con tours, expediciones, participantes y rutas.
+- **Forms:** serán utilizados en procesos como registro, inicio de sesión y gestión de información. Los campos contarán con etiquetas claras y mensajes de validación.
+- **Badges:** permitirán identificar rápidamente diferentes estados, como "Activo", "Finalizado", "Sin conexión" o "Sincronizado".
+- **Alerts:** comunicarán advertencias, anomalías o situaciones relacionadas con la seguridad de los participantes.
+- **Icons:** complementarán visualmente información relacionada con ubicación, rutas, checkpoints, participantes, conectividad y seguridad.
+
+Los componentes mantendrán una jerarquía visual clara y evitarán incorporar elementos decorativos que puedan dificultar la comprensión de la información.
+
+##### 3. Interaction and Visual Feedback
+
+Los elementos interactivos de TourMate proporcionarán retroalimentación visual para que el usuario pueda reconocer el resultado de sus acciones y el estado de los diferentes componentes de la interfaz.
+
+Se considerarán los siguientes estados de interacción:
+
+- **Hover:** cambio visual al posicionar el cursor sobre botones, enlaces u otros elementos interactivos.
+- **Focus:** indicador visible cuando un componente recibe el foco durante la navegación.
+- **Active:** permitirá identificar una opción, botón o sección actualmente seleccionada.
+- **Disabled:** indicará que una acción se encuentra temporalmente no disponible.
+- **Success:** confirmará visualmente que una acción se realizó correctamente.
+- **Warning:** comunicará una situación que requiere la atención del usuario.
+- **Error:** informará cuando exista un problema o una acción no pueda completarse.
+
+Estos estados deberán conservar los criterios de color, tipografía y legibilidad establecidos en las General Style Guidelines.
+
+##### 4. Connectivity Feedback
+
+Debido a que TourMate está orientado a experiencias de turismo de aventura que pueden desarrollarse en zonas con conectividad limitada, la interfaz deberá comunicar claramente el estado de conexión y sincronización de la información.
+
+Se utilizarán estados como:
+
+- **En línea:** indica que el dispositivo cuenta con conexión disponible.
+- **Sin conexión:** informa que temporalmente no existe acceso a Internet.
+- **Guardado localmente:** indica que la información ha sido almacenada en el dispositivo y se encuentra pendiente de sincronización.
+- **Sincronizado:** confirma que la información almacenada localmente ha sido actualizada correctamente en el sistema.
+
+Estos estados deberán presentarse mediante textos claros y elementos visuales fácilmente reconocibles, evitando depender únicamente del color para comunicar información importante.
+
+En conjunto, estos estándares permitirán mantener una experiencia web consistente y adaptable, utilizando los principios visuales definidos en las General Style Guidelines. La jerarquía de los componentes, los estados de interacción y la adaptación responsive buscan facilitar la comprensión de la información y el acceso a las principales funcionalidades de TourMate tanto para turistas como para operadores turísticos.
+
