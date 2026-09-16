@@ -41,8 +41,8 @@
         <td align="center" >XXXX</td>
       </tr>
       <tr>
-        <td align="center" >U202</td>
-        <td align="center" >xxxxx</td>
+        <td align="center" >U20241G197</td>
+        <td align="center" >Ysidro Llashag, Valeria Milagros</td>
       </tr>
       <tr>
         <td align="center" >U202419483</td>
