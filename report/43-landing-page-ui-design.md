@@ -53,6 +53,30 @@ Finalmente, se presenta un llamado a la acción que permite iniciar el proceso d
 ![TourMate Landing Page Wireframe - CTA and Footer](../assets/images/TourMate-Wireframe-11-CTA-Footer.png)
 
 
-### 4.3.2 Landing Page Mock-up
+### 4.3.2. Landing Page Mock-up
+
+El mock-up de la Landing Page de TourMate representa la propuesta visual final de la interfaz, desarrollada a partir de la estructura definida en el wireframe y de los lineamientos visuales establecidos para el producto. La propuesta incorpora la identidad visual de TourMate, fotografías relacionadas con el turismo de aventura, componentes de interfaz, llamadas a la acción y una organización visual orientada a turistas y operadores.
+
+La Landing Page presenta los principales beneficios y funcionalidades de TourMate, el proceso general de uso, información diferenciada para turistas y agencias, una demostración del producto, historias representativas, preguntas frecuentes, un formulario de contacto y opciones de registro.
+
+![TourMate Landing Page Mock-up 01](../assets/images/TourMate-Mockup-01.png)
+
+![TourMate Landing Page Mock-up 02](../assets/images/TourMate-Mockup-02.png)
+
+![TourMate Landing Page Mock-up 03](../assets/images/TourMate-Mockup-03.png)
+
+![TourMate Landing Page Mock-up 04](../assets/images/TourMate-Mockup-04.png)
+
+![TourMate Landing Page Mock-up 05](../assets/images/TourMate-Mockup-05.png)
+
+![TourMate Landing Page Mock-up 06](../assets/images/TourMate-Mockup-06.png)
+
+![TourMate Landing Page Mock-up 07](../assets/images/TourMate-Mockup-07.png)
+
+![TourMate Landing Page Mock-up 08](../assets/images/TourMate-Mockup-08.png)
+
+![TourMate Landing Page Mock-up 09](../assets/images/TourMate-Mockup-09.png)
+
+![TourMate Landing Page Mock-up 10](../assets/images/TourMate-Mockup-10.png)
 
 
