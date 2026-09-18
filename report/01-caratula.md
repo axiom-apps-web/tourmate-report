@@ -41,8 +41,8 @@
         <td align="center" >XXXX</td>
       </tr>
       <tr>
-        <td align="center" >U202</td>
-        <td align="center" >xxxxx</td>
+        <td align="center" >U20221G231</td>
+        <td align="center" >Molina Vásquez, Manuel Alejandro</td>
       </tr>
       <tr>
         <td align="center" >U202419483</td>
