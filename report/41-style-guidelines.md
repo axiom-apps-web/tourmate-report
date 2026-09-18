@@ -84,7 +84,7 @@ La aplicación de los colores seguirá un criterio funcional y consistente. Los 
 
 #### 5. Spacing
 
-El sistema de espaciado de TourMate se define con el objetivo de mantener interfaces ordenadas, legibles y consistentes en los diferentes dispositivos. Se adopta una escala base de **8 px**, permitiendo establecer separaciones uniformes entre los elementos de la interfaz.
+El sistema de espaciado de TourMate se define con el objetivo de mantener interfaces ordenadas, legibles y consistentes en los diferentes dispositivos. Se adopta una escala base de 8 px, permitiendo establecer separaciones uniformes entre los elementos de la interfaz.
 
 Los principales valores de espaciado son:
 
