@@ -37,8 +37,8 @@
         <td align="center" >Carrillo Acho, Matias Renato</td>
       </tr>
       <tr>
-        <td align="center" >U202</td>
-        <td align="center" >XXXX</td>
+        <td align="center" >U20241G402</td>
+        <td align="center" >Segura Guerra Alison Ariana</td>
       </tr>
       <tr>
         <td align="center" >U20241G197</td>
