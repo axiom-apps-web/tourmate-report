@@ -38,7 +38,7 @@
       </tr>
       <tr>
         <td align="center" >U20241G402</td>
-        <td align="center" >Segura Guerra Alison Ariana</td>
+        <td align="center" >Segura Guerra, Alison Ariana</td>
       </tr>
       <tr>
         <td align="center" >U20241G197</td>
