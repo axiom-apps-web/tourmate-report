@@ -132,5 +132,26 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 </div>
 
 **Resumen:** Mateo León Paredes, 25 años, opera como encargado logístico de transporte turístico desde Lima, gestionando hasta 10 vehículos y entre 80-120 turistas semanales en rutas hacia Cusco, Arequipa y selva central. Su mayor problema es el seguimiento de flota: el GPS instalado está desactualizado y pierde señal en sierra, por lo que todo depende de WhatsApp y un Excel manual, con zonas de hasta 2 horas sin cobertura que han generado fricciones comerciales con agencias clientes. Vivió un incidente crítico con 12 turistas extranjeros varados de noche sin señal, lo que evidenció la fragilidad total del sistema. Necesita una solución con funcionamiento offline, botón de emergencia para conductores y panel en tiempo real desde Lima, y estaría dispuesto a pagar entre 60-120 USD/mes si puede justificar el ROI ante el dueño, quien representa la principal barrera para adoptar nueva tecnología.
+
+##### Segmento 2: Turistas de aventuras 
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Turistas de aventura |
+| Nombres y apellidos | Andrea Ramos |
+| Edad | 24 años |
+| Distrito | Pueblo Libre |
+| Ocupación | Estudiante de Ingeniería Ambiental |
+| Actividad realizada | Trekking en la Cordillera Blanca, Áncash |
+| Acompañantes | Dos amigas y guía local |
+| Inicio de la entrevista |  |
+| Duración |  |
+| URL del video |  |
+
+</div>
+
+
+
  
 ---
