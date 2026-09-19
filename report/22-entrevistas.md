@@ -145,9 +145,9 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 | Ocupación | Estudiante de Ingeniería Ambiental |
 | Actividad realizada | Trekking en la Cordillera Blanca, Áncash |
 | Acompañantes | Dos amigas y guía local |
-| Inicio de la entrevista |  |
-| Duración |  |
-| URL del video |  |
+| Inicio de la entrevista | 00:00 |
+| Duración | 6:54 |
+| URL del video | https://youtu.be/6b6RtquzEgs |
 
 </div>
 
