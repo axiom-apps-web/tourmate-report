@@ -150,6 +150,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 | URL del video | https://youtu.be/6b6RtquzEgs |
 
 </div>
+**Resumen:** Andrea, 24 años, estudiante de Ingeniería Ambiental y residente de Pueblo Libre, realiza actividades de aventura una o tres veces al año. Prefiere organizar rutas sencillas con amigos y contratar agencias para recorridos complejos. Durante un trekking en la Cordillera Blanca, tuvo dificultades para orientarse debido a la poca señalización y cobertura telefónica. Su principal preocupación es no poder comunicarse durante una emergencia, ya que depende de mapas descargados, GPS y WhatsApp. Le gustaría contar con información sobre su ubicación, progreso, clima y alertas de riesgo, además de registrar sus experiencias. Estaría dispuesta a utilizar dispositivos de monitoreo, siempre que sus datos sean protegidos y utilizados con transparencia. También considera que el monitoreo en tiempo real y los protocolos de emergencia influirían en su elección de una agencia.
 
 
 
