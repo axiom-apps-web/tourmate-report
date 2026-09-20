@@ -166,7 +166,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 **Resumen:** Romina Antonella es una usuaria joven que realiza actividades de aventura y trekking durante sus periodos vacacionales (aproximadamente una vez cada dos semanas). Suelen ser salidas en grupos de amigos de forma independiente en expediciones cortas (como caminatas hacia lagunas en Caraz), o mediante agencias turísticas cuando visita destinos tradicionales como Cusco y Machu Picchu. Durante sus recorridos no lleva equipamiento especializado; suele portar únicamente su teléfono móvil y audífonos, empleando la función nativa de ubicación compartida en tiempo real de WhatsApp para reportarse con sus padres. Manifiesta preocupación frente a la pérdida total de cobertura celular en zonas remotas, reconociendo la incertidumbre de no saber cómo comunicarse con sus familiares o pedir ayuda si ocurriese un accidente grave; ante ello, actualmente solo depende de la confianza en sus acompañantes. Si bien no ha presenciado emergencias extremas (solo incidentes médicos menores resueltos por guías locales), expresa que la información más valiosa que desearía tener disponible en todo momento son las alertas de riesgo y la identificación de zonas seguras ante peligros naturales (terremotos o avalanchas). Asimismo, documenta activamente sus recorridos tomando fotos, grabando videos y generando contenido para redes sociales en el trayecto. Respecto al uso de dispositivos wearables y tecnología de monitoreo biométrico y de geolocalización provista por una agencia, afirma que estaría totalmente dispuesta a usarlos si se le explican claramente su funcionamiento y propósitos. No le genera inconvenientes la privacidad de sus datos de salud o ubicación mientras este rastreo se limite estrictamente a la duración de la excursión. Aunque actualmente la adopción de tecnología avanzada no determina de forma crítica su elección de agencia (dada la escasa oferta tecnológica en el mercado local), considera que implementar estos sistemas sería una adición positiva y valiosa para modernizar el sector.
 
-**Entrevista 6:**
+**Entrevista 5:**
 
 ![Entrevista 6](../assets/images/Entrevista-6.png)
 
@@ -184,7 +184,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 El análisis de la entrevista con Miller, un viajero que realiza trekking de manera ocasional, revela información clave sobre el comportamiento y las necesidades urgentes de los aventureros en zonas remotas. Aunque suele organizarse de forma independiente con amigos para rutas conocidas, Miller prefiere contratar agencias y guías para trayectos más complejos. Durante estas expediciones, su principal punto de dolor es la pérdida de señal celular, lo cual genera una gran incertidumbre sobre la ubicación exacta y la ruta a seguir. A esto se suma la percepción de que las agencias a menudo carecen de protocolos de emergencia claros frente a problemas de salud o fatiga extrema del grupo. Si bien actualmente intenta mitigar estos riesgos compartiendo su ubicación y descargando mapas sin conexión, estas herramientas terminan perdiendo su utilidad principal al no contar con cobertura de red.
 
-**Entrevista 7:**
+**Entrevista 6:**
 
 ![Entrevista 7](../assets/images/entrevista7.png)
 
