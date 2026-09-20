@@ -129,6 +129,21 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 **Resumen:** Aarón Espinosa representa a una agencia pequeña enfocada en turismo de aventura, caminatas, trekking y visitas culturales en la sierra peruana (principalmente Cusco, Arequipa y alrededores). En temporadas altas llegan a coordinar entre 10 y 15 guías simultáneamente, atendiendo de 50 a 100 turistas al día distribuidos en 5 a 8 grupos en ruta. Actualmente, el monitoreo lo realizan mediante llamadas telefónicas, la función de ubicación compartida y grupos de WhatsApp, mientras que la información operativa la manejan de forma dispersa en hojas de Microsoft Excel y chats. Manifiesta que la pérdida total de señal móvil en zonas de altura y senderos aislados es sumamente frecuente; ante ello, no cuentan con contingencias técnicas y se limitan a esperar a que el guía recupere cobertura para reportar. Toda la supervisión de la condición física de los turistas recae exclusivamente en la observación presencial del guía. Entre los incidentes habituales reporta casos de descompensación por mal de altura y agotamiento físico extremo. Señala que la falta de conectividad dificulta actuar con rapidez desde la base, lo que deriva en reclamos de clientes y deteriora la reputación de la empresa. Aarón considera indispensable una solución que funcione sin señal móvil (almacenando datos localmente hasta reconectar), que centralice la ubicación y ofrezca comunicación directa con alertas tempranas. Como funcionalidades de valor agregado destaca los reportes de recorridos y el historial de incidentes. Estaría dispuesto a adoptar un modelo de suscripción mensual con un rango de pago estimado entre S/. 150 y S/. 300.
 
+**Entrevista 2:**
+
+![Captura entrevista 2 - segmento 1](../assets/images/Captura%20entrevista%202%20-%20segmento%201.png)
+
+| Campo | Información |
+| :--- | :--- |
+| **Entrevistador:** | Alison Segura |
+| **Entrevistado:** | Diego Salazar |
+| **Edad:** | 27 años |
+| **Segmento:** | Dueño o responsable de agencia de turismo de aventura |
+| **Inicio de la entrevista:** | 0:00 |
+| **Duración:** | 9:48 |
+| **Enlace:** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBUGd7NzFPRTb6bejyvwvkZAYfO13kLVgXW_Ltf7_zQrZs?e=qaLgij&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBUGd7NzFPRTb6bejyvwvkZAYfO13kLVgXW_Ltf7_zQrZs?e=qaLgij&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  |
+
+**Resumen:** Diego Salazar, 27 años, es propietario de una agencia pequeña de turismo de aventura ubicada en Huaraz, Áncash, especializada en trekking, montañismo y rutas de naturaleza en la Cordillera Blanca. Durante temporadas altas trabajan con 8 a 10 guías y atienden entre 30 y 50 turistas semanales. Actualmente, utilizan celulares y WhatsApp para realizar el seguimiento de los grupos, mientras que la información de los turistas, recorridos e incidentes se registra manualmente. Señala que la pérdida de señal es frecuente en zonas alejadas y de gran altitud, lo que dificulta la comunicación ante emergencias, como casos de agotamiento físico o mal de altura. Considera que una plataforma centralizada con seguimiento de grupos, alertas de emergencia y funcionamiento sin conexión sería muy útil para mejorar la seguridad. También valora los reportes automáticos y el historial de incidentes. Estaría dispuesto a pagar entre S/. 100 y S/. 200 mensuales, dependiendo de las funcionalidades ofrecidas.
 
 ##### Segmento 2: Turistas de Aventura
 
