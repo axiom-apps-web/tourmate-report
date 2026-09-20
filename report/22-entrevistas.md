@@ -131,7 +131,7 @@ Las entrevistas constituyen la principal técnica de investigación cualitativa 
 
 **Entrevista 2:**
 
-![Captura entrevista 2 - segmento 1](../assets/images/Captura%20entrevista%202%20-%20segmento%201.png)
+![Captura entrevista 2 - segmento 1](../assets/images/CapturaEntrevista2-Segmento1.png)
 
 | Campo | Información |
 | :--- | :--- |
