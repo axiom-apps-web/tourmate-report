@@ -2,7 +2,7 @@
 
 <br/>
 <div align="center">
-  <img src="assets/images/upc-logoo.png" alt="UPC Logo" width="80">
+  <img src="../assets/images/upc-logoo.png" alt="UPC Logo" width="80">
 </div>
 <br/>
 <h2 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h2>
@@ -37,8 +37,8 @@
         <td align="center" >Carrillo Acho, Matias Renato</td>
       </tr>
       <tr>
-        <td align="center" >U202</td>
-        <td align="center" >XXXX</td>
+        <td align="center" >U20241G402</td>
+        <td align="center" >Ysidro Llashag, Valeria Milagros</td>
       </tr>
       <tr>
         <td align="center" >U20221G231</td>
@@ -49,8 +49,8 @@
         <td align="center" >Verastigue Martinez, Giancarlo Jose</td>
       </tr>
       <tr>
-        <td align="center" >U202 </td>
-        <td align="center" >xxxxxx </td>
+        <td align="center" >U20241G197 </td>
+        <td align="center" >Segura Guerra, Alison Ariana </td>
       </tr>
     </tbody>
   </table>
