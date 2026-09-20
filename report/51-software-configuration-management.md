@@ -57,12 +57,50 @@ Para mantener un historial claro, consistente y facilitar la generación automá
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-Para mantener la legibilidad y calidad del código, todo el equipo aplicará **nomenclatura estrictamente en inglés** para clases, variables, métodos y bases de datos. Además, se adoptan las siguientes guías de estilo oficiales:
+Para garantizar la legibilidad, mantenibilidad y calidad del código en todo el equipo de desarrollo de FruitLogix, se adoptan las siguientes guías de estilo:
 
-- **HTML & CSS:** Se seguirán las directrices de la [HTML Style Guide and Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp) de W3C y la [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html).
-- **Frontend (Angular / TypeScript):** Se respetará la [Angular Coding Style Guide](https://angular.io/guide/styleguide). Las clases usarán `PascalCase`, variables/métodos `camelCase`, y archivos `kebab-case`. Se utilizará Prettier y ESLint para automatizar el formato.
-- **Backend (Spring Boot / Java):** Se aplicará la [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html). La arquitectura se dividirá en capas estrictas (Controllers, Services, Repositories, Entities). Los endpoints RESTful usarán sustantivos en plural (ej. `GET /api/v1/parking-spots`).
-- **Requerimientos:** Se emplearán las [Gherkin Conventions](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/) para la redacción estructurada de los criterios de aceptación (Given/When/Then).
+#### Para el Frontend (Vue / JavaScript)
+
+Se seguirán buenas prácticas alineadas al ecosistema de Vue y la guía oficial de estilo.
+
+**Nomenclatura:**
+- Componentes: PascalCase (ej. `OrderCard.vue`)
+- Variables y funciones: camelCase (ej. `getOrderList`)
+- Archivos: kebab-case (ej. `order-list.component.vue`)
+
+**Estructura:**
+- Separación clara por carpetas: `components`, `views`, `services`, `store`.
+- Uso de componentes reutilizables para mantener la modularidad.
+
+**Formateo:**
+- Uso de Prettier con indentación de 2 espacios.
+- Uso de ESLint para mantener consistencia y evitar malas prácticas en JavaScript.
+
+#### Para el Backend (ASP.NET Core / C#)
+
+Se adoptarán las convenciones estándar de C# y buenas prácticas de desarrollo en .NET.
+
+**Nomenclatura:**
+- Clases y métodos: PascalCase (ej. `OrderService`, `GetOrders`)
+- Variables: camelCase (ej. `orderList`)
+- Interfaces: prefijo `I` (ej. `IOrderRepository`)
+
+**Arquitectura:**
+- Separación en capas:
+    - Controllers
+    - Services
+    - Repositories
+    - Models (Entities / DTOs)
+- Aplicación del principio de responsabilidad única (SRP).
+
+**APIs RESTful:**
+- Uso de sustantivos en plural para endpoints.
+- Uso correcto de métodos HTTP:
+    - `GET` → obtener recursos
+    - `POST` → crear recursos
+    - `PUT/PATCH` → actualizar recursos
+    - `DELETE` → eliminar recursos
+
 
 
 #### 5.1.4. Software Deployment Configuration
