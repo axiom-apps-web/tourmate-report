@@ -198,7 +198,7 @@ Todos los miembros del equipo han participado activamente en la implementación 
 
 ### Anexo A. Videos de exposiciones
 
-- Exposición AV1: 
+- Exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQAxE4dWMH1_TrOpYjIh0i_tATv3SJgLVSN9_JqQWd0TLNE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XklIVq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQAxE4dWMH1_TrOpYjIh0i_tATv3SJgLVSN9_JqQWd0TLNE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XklIVq)
 
 <div style="page-break-before: always;"></div>
 
