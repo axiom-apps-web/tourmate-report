@@ -11,8 +11,8 @@ Para el desarrollo del informe perteneciente a la entrega AV1, se dividió la im
 
 | Integrante       | Tareas Asignadas                                                                                                                                                                           |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Quispe Palomino, Tony Jhunior | Desarrollo del Capítulo I y del Capítulo II en formato markdown.                                                             |
-| Huingo Tello, Frank Anthony     | Desarrollo del Capítulo III, parte del capítulo IV en formato markdown.                                                  |
+| Segura Guerra, Alison Ariana | Desarrollo del Capítulo I y del Capítulo II en formato markdown.                                                             |
+| Ysidro Llashag, Valeria Milagros     | Desarrollo del Capítulo III, parte del capítulo IV en formato markdown.                                                  |
 | Molina Vasquez, Manuel Alejandro      | Desarrollo del Capítulo IV enfocado en desarrollo de UX/UI Design.                                                                               |
 | Carrillo Acho, Matias Renato  | Desarrollo del Capítulo IV enfocado en system design, así como colaboración en el capítulo V del documento en formato markdown.                                                                               |
 | Verastigue Martinez, Giancarlo Jose  | Desarrollo del Capítulo V, despliegue de Landing Page |
