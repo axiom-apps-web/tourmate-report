@@ -162,13 +162,13 @@ URL: [https://axiom-apps-web.github.io/tourmate-landing/](https://axiom-apps-web
 Todos los miembros del equipo han participado activamente en la implementación de los productos del Sprint 1, lo cual se evidencia mediante los reportes de actividad y contribución del repositorio de GitHub de la organización Axiom.
 
 **Insights**
-![Team Insights Sprint 1](../assets/images/insights-landing.png)
+![Team Insights Sprint 1](../assets/images/insights-landing2.png)
 
 **Contributors**
-![Team Insights Sprint 1](../assets/images/contribuciones-landing.png)
+![Team Insights Sprint 1](../assets/images/contribuciones-landing2.png)
 
 **Network graph**
-![Team Insights Sprint 1](../assets/images/gitflow-sprint1.png)
+![Team Insights Sprint 1](../assets/images/gitflow-sprint1-2.png)
 
 
 ## Conclusiones
