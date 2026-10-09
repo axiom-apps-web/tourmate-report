@@ -8,4 +8,9 @@
 |   1.0   | 14/09/2026 |   Molina Vasquez, Manuel Alejandro     | Desarrollo del capítulo IV                               |
 |   1.0   | 14/09/2026 |   Carrillo Acho, Matias Renato    | Desarrollo del capítulo IV                               |
 |   1.0   | 18/09/2026 |   Verastigue Martinez, Giancarlo Jose   | Desarrollo del capítulo V                               |
-
+|   1.0   | 8/09/2026 |   Verastigue Martinez, Giancarlo Jose     | Creación y estructuración del documento de trabajo en formato markdown                                 |
+|   2.0   | 12/09/2026 |   Segura Guerra, Alison Ariana     | Desarrollo de los capítulos 5.2                               |
+|   2.0   | 12/09/2026 |   Ysidro Llashag, Valeria Milagros     | Desarrollo de los capítulo 5.2                               |
+|   2.0   | 14/09/2026 |   Molina Vasquez, Manuel Alejandro     | Desarrollo del capítulo 5.2                               |
+|   2.0   | 14/09/2026 |   Carrillo Acho, Matias Renato    | Desarrollo del capítulo 5.2                               |
+|   2.0   | 18/09/2026 |   Verastigue Martinez, Giancarlo Jose   | Desarrollo del capítulo 5.2                               |

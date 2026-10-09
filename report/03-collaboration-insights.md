@@ -21,5 +21,23 @@ Para el desarrollo del informe perteneciente a la entrega AV1, se dividió la im
 
 El trabajo se desarrolló mediante commits continuos en el repositorio de la organización, asegurando trazabilidad y colaboración activa del equipo.
 
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<div align="center">
+
+| Integrante       | Tareas Asignadas                                                                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Segura Guerra, Alison Ariana | Desarrollo del Capítulo I y del Capítulo II en formato markdown.                                                             |
+| Ysidro Llashag, Valeria Milagros     | Desarrollo del Capítulo 5.2.1, parte del capítulo IV en formato markdown.                                                  |
+| Molina Vasquez, Manuel Alejandro      | Desarrollo del Capítulo 5.2.2                                                                                |
+| Carrillo Acho, Matias Renato  | Desarrollo del Capítulo 5.2.3                                                                               |
+| Verastigue Martinez, Giancarlo Jose  | 5.2.6 |
+
+</div>
+
+El trabajo se desarrolló mediante commits continuos en el repositorio de la organización, asegurando trazabilidad y colaboración activa del equipo.
+
 ---
 <div style="page-break-before: always;"></div>
