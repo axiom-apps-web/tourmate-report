@@ -413,7 +413,7 @@ En la siguiente tabla evidencia los commits realizados en los repositorios de Ax
 
 En este segundo Sprint, el equipo se enfocó de lleno en la construcción y desarrollo del Frontend core de TourMate, logrando consolidar la interfaz de usuario y la interactividad de los módulos principales de la plataforma. Se alcanzó satisfactoriamente el objetivo del Sprint al entregar componentes visuales funcionales, responsivos y estructurados, dejándolos listos para su futura integración con la API REST.
 
-Entre los logros más destacados de este ciclo se encuentra el módulo de Gestión de Tours, donde se implementaron las vistas dinámicas para que las agencias puedan crear, editar, duplicar y administrar recorridos, además de gestionar la asignación de turistas. Asimismo, se avanzó significativamente en el módulo de Mapas y Monitoreo, integrando visores interactivos que permiten renderizar rutas (polylines), visualizar checkpoints y proyectar el progreso de la expedición en tiempo real.
+Entre los logros más destacados de este ciclo se encuentra el módulo de Gestión de Tours, donde se implementaron las vistas dinámicas para que las agencias puedan crear, editar, duplicar y administrar recorridos, además de gestionar la asignación de turistas. Asimismo, se avanzó significativamente en el módulo de Mapas y Monitoreo, integrando visores interactivos que permiten renderizar rutas, visualizar checkpoints y proyectar el progreso de la expedición en tiempo real.
 
 *Figura  (Home)*
 ![Home](../assets/images/wepapp-home.png)
@@ -624,7 +624,7 @@ El proceso finalizó exitosamente, proveyendo la URL pública de producción. La
 *Web Application*
 ![Home](../assets/images/wepapp-home.png)
 
-**URL Web Application desplegada:** [https://tourmate-e66ff.web.app/](https://tourmate-e66ff.web.app/)
+**URL Web Application desplegada:** [https://](https://)
 
 #### *5.2.2.8. Team Collaboration Insights during Sprint*
 
@@ -644,7 +644,7 @@ Todos los miembros del equipo han participado activamente en la implementación 
 
 ## Conclusiones
 
-### Sprint 1 – Landing Page y documentación del proyecto
+
 
 - **Sobre el análisis del problema y la investigación del usuario:** Se concluye que las entrevistas realizadas a dueños de agencias de tours y turistas de aventura permitieron identificar necesidades, expectativas y puntos de dolor relevantes para el desarrollo de TourMate. La información recopilada fue fundamental para la definición de *User Personas*, *Empathy Maps* y *Journey Maps*, los cuales sirvieron como base para la priorización de funcionalidades y la elaboración del *Problem Statement*.
 
