@@ -416,7 +416,7 @@ En este segundo Sprint, el equipo se enfocó de lleno en la construcción y desa
 Entre los logros más destacados de este ciclo se encuentra el módulo de Gestión de Tours, donde se implementaron las vistas dinámicas para que las agencias puedan crear, editar, duplicar y administrar recorridos, además de gestionar la asignación de turistas. Asimismo, se avanzó significativamente en el módulo de Mapas y Monitoreo, integrando visores interactivos que permiten renderizar rutas, visualizar checkpoints y proyectar el progreso de la expedición en tiempo real.
 
 *Figura  (Home)*
-![Home](../assets/images/wepapp-home.png)
+![Home](../assets/images/home2.png)
 
 *Figura  (Gestion de Tours)*
 ![Gestion de Tours](../assets/images/gestion.png)
@@ -430,7 +430,7 @@ Entre los logros más destacados de este ciclo se encuentra el módulo de Gesti�
 *Figura  (Planes)*
 ![Planes](../assets/images/planes.png)
 
-**Web Application Demonstration Video:** [https://upcedupe-my.sharepoint.com/personal/u20221g231_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g231%5Fupc%5Fedu%5Fpe%2FDocuments%2FDAOS%2Fvideo%20de%20presentaci%C3%B3n%20TourMate%20DAOS%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e7e89ea%2D2cfe%2D4bbb%2D9ff3%2De20be40ad469](https://upcedupe-my.sharepoint.com/personal/u20221g231_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20221g231%5Fupc%5Fedu%5Fpe%2FDocuments%2FDAOS%2Fvideo%20de%20presentaci%C3%B3n%20TourMate%20DAOS%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e7e89ea%2D2cfe%2D4bbb%2D9ff3%2De20be40ad469)
+**Web Application Demonstration Video:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g231_upc_edu_pe/IQCp8uNOKAdyRaH9Ynx9v08yASmZSmceLM33SGMXAivY0qc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PaLuKv](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g231_upc_edu_pe/IQCp8uNOKAdyRaH9Ynx9v08yASmZSmceLM33SGMXAivY0qc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PaLuKv)
 
 #### *5.2.2.6. Services Documentation Evidence for Sprint Review*
 
@@ -586,7 +586,7 @@ Se accedió a la consola web de Firebase (`https://firebase.google.com/`) autent
 * En el panel lateral, se navegó a **Hosting** y se inicializó el servicio seleccionando **Get started**.
 
 *Firebase creación*
-![Firebase](../assets/images/firebase1.png)
+![Firebase](../assets/images/firebase-1.png)
 
 **Paso 3: Instalación y Configuración del CLI de Firebase**
 Se instalaron las herramientas de Firebase globalmente en el entorno de desarrollo y se realizó la vinculación de credenciales:
@@ -609,7 +609,7 @@ Durante el asistente de inicialización, se aplicaron las siguientes configuraci
 * **Overwrite index.html:** `N` (Para preservar el archivo generado por el build de Angular).
 
 *Firebase Init*
-![Firebase](../assets/images/firebase2.png)
+![Firebase](../assets/images/firebase-2.png)
 
 **Paso 4: Deployment en Firebase**
 Una vez enlazado el proyecto local con la nube y definidos los directorios, se procedió a subir los archivos a los servidores de Firebase:
@@ -619,25 +619,25 @@ firebase deploy
 El proceso finalizó exitosamente, proveyendo la URL pública de producción. La aplicación TourMate ahora se encuentra accesible y operando correctamente en su entorno real.
 
 *Firebase Deploy*
-![Firebase](../assets/images/firebase3.png)
+![Firebase](../assets/images/firebase-3.png)
 
 *Web Application*
 ![Home](../assets/images/wepapp-home.png)
 
-**URL Web Application desplegada:** [https://](https://)
+**URL Web Application desplegada:** [https://tourmate-axiom.web.app/](https://tourmate-axiom.web.app/)
 
 #### *5.2.2.8. Team Collaboration Insights during Sprint*
 
 Todos los miembros del equipo han participado activamente en la implementación de los productos del Sprint 2, lo cual se evidencia mediante los reportes de actividad y contribución del repositorio de GitHub de la organización Axiom.
 
 **Insights**
-![Team Insights Sprint 2](../assets/images/insights2.png)
+![Team Insights Sprint 2](../assets/images/insight3.png)
 
 **Contributors**
 ![Team Insights Sprint 2](../assets/images/contribuciones2.png)
 
-**Commits**
-![Team Insights Sprint 2](../assets/images/commits2.png)
+**Network**
+![Team Insights Sprint 2](../assets/images/gitflow-sprint2.png)
 
 
 
@@ -671,6 +671,7 @@ Todos los miembros del equipo han participado activamente en la implementación 
 
 - Exposición AV1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQAxE4dWMH1_TrOpYjIh0i_tATv3SJgLVSN9_JqQWd0TLNE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XklIVq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419483_upc_edu_pe/IQAxE4dWMH1_TrOpYjIh0i_tATv3SJgLVSN9_JqQWd0TLNE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XklIVq)
 
+- Exposición TB1:
 
 ### Anexo B. Videos de entrevistas
 
