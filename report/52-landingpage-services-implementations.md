@@ -200,9 +200,9 @@ Para este segundo sprint, los aspectos se han definido en base a los módulos pr
 |-------------------------------------|-----------------| --- | --- | --- | --- |
 | Verastigue Martinez, Giancarlo      | @CaLoVM         | C | C | C | L |
 | Carrillo Acho, Matias               | @lonybreux      | C | L | C | C |
-| Huingo Tello, Frank Anthony         | @vysidrol      | L | C | C | C |
+| Ysidro Llashag, Valeria Milagros        | @vysidrol      | L | C | C | C |
 | Molina Vasquez, Manuel Alejandro    | @AleDusty       | L | C | C | C |
-| Quispe Palomino, Tony Jhunior       | @Nox010111  | C | C | L | C |
+| Segura Guerra Alison Ariana      | @Nox010111  | C | C | L | C |
 
 #### *5.2.2.3. Sprint Backlog 2*
 
@@ -438,7 +438,7 @@ Durante este segundo Sprint, la documentación y estructuración de los Web Serv
 
 **Repositorio y Commits Relacionados**
 La configuración de estos servicios, al estar orientada al consumo del cliente en esta fase, se encuentra versionada en el repositorio del Frontend:
-* **URL del Repositorio:** `https://github.com/axiom-daos/tourmate-web-application`
+* **URL del Repositorio:** `https://github.com/axiom-apps-web/tourmate-web-application`
 * **Commits de Configuración de Endpoints:** `560d09c` (Actualización de URLs base de la API para active tours, agencies, checkpoints, incidents, etc.), `c1efc6f` (Adición de endpoints de subscriptions y payments).
 
 #### Tabla General de Endpoints (Mock API)
@@ -572,11 +572,9 @@ Para el despliegue del Frontend interactivo de la plataforma TourMate, se optó 
 **Paso 1: Build del Proyecto**
 Se generó la versión optimizada para producción del código fuente ejecutando el siguiente comando en la terminal del IDE:
 ```bash
-ng build
+npm run build
 ```
 Este proceso empaquetó la aplicación y la depositó en el directorio de salida por defecto (`dist/tourmate-web-application/browser`).
-
-![Build](../assets/images/build.png)
 
 **Paso 2: Creación de Hosting en Firebase Console**
 Se accedió a la consola web de Firebase (`https://firebase.google.com/`) autenticando con una cuenta de Google autorizada por el equipo.
