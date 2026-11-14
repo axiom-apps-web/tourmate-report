@@ -158,18 +158,18 @@ En esta sección se documentan las entrevistas de validación realizadas a los u
 
 **Entrevista de Validación 4:**
 
-![Entrevista de Validación 4]
+![entrevista-de-validación-4.png](../assets/images/entrevista-de-validaci%C3%B3n-4.png)
 
 | | |
 | :--- | :--- |
-| **Entrevistador:** | |
-| **Entrevistado:** | |
-| **Edad:** | |
-| **Segmento:** | |
-| **Fecha:** | |
-| **Inicio de la entrevista:** | |
-| **Duración:** | |
-| **Enlace:** | |
+| **Entrevistador:** | Molina Vásquez Manuel Alejandro|
+| **Entrevistado:** | Kevyn Arnold Huerta Urribarri|
+| **Edad:** | 22|
+| **Segmento:** | Turistas de Aventura|
+| **Fecha:** | 09/11/2026|
+| **Inicio de la entrevista:** | 00:00|
+| **Duración:** | 07:56|
+| **Enlace:** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g231_upc_edu_pe/IQChj7dRc8YrSJEmnkm8mQtQAQyQAv7Efdp2UVOv92ghQ4o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nKaomv|
 
 **Resumen:**
 
