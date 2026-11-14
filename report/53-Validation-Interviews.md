@@ -173,6 +173,8 @@ En esta sección se documentan las entrevistas de validación realizadas a los u
 
 **Resumen:**
 
+En la entrevista realizada a Kevin Arnold Puerto Rivera de veintidós años, se destaca su experiencia realizando trekking durante las temporadas vacacionales y su opinión sobre la integración de la tecnología en estas expediciones. El entrevistado valora de forma muy positiva el uso de aplicaciones de navegación que incluyan mapas fuera de línea, puntos seguros, alertas meteorológicas actualizadas y un botón de pánico para emergencias. Asimismo, muestra total aceptación hacia el uso de dispositivos de monitoreo de ubicación y signos vitales provistos por las agencias sin presentar preocupaciones sobre su privacidad, señalando que la tecnología influye favorablemente en la selección de servicios turísticos y destacando la utilidad de la generación automática de un diario de viaje para corregir errores, optimizar el peso del equipo y compartir la vivencia con familiares y amigos.
+
 ---
 
 **Entrevista de Validación 5:**
