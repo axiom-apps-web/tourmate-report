@@ -97,22 +97,24 @@ En esta sección se documentan las entrevistas de validación realizadas a los u
 
 **Entrevista de Validación 1:**
 
-![Entrevista de Validación 1]
+![entrevista-de-validacion-1.png](../assets/images/entrevista-de-validacion-1.png)
 
 | | |
 | :--- | :--- |
-| **Entrevistador:** | |
-| **Entrevistado:** | |
-| **Edad:** | |
-| **Segmento:** | |
-| **Fecha:** | |
-| **Inicio de la entrevista:** | |
-| **Duración:** | |
-| **Enlace:** | |
+| **Entrevistador:** | Manuel Alejandro Molina Vásquez |
+| **Entrevistado:** | Sebastian Rojas |
+| **Edad:** | 29 años |
+| **Segmento:** | Dueños o Responsables de Agencias de Turismo de Aventura |
+| **Fecha:** | 10/11/2026 |
+| **Inicio de la entrevista:** | 00:01 |
+| **Duración:** | 9:42 |
+| **Enlace:** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g231_upc_edu_pe/IQCgEKE6eastRZMWiBYn2izrAQ9fCukadRqf3U_oOmGpskI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nVvlDr |
 
 ---
 
 **Resumen:**
+
+En la entrevista realizada a Sebastián Rojas, de veintinueve años y gerente de una empresa de turismo, se valora positivamente la implementación de la plataforma TourMate para optimizar las operaciones de las expediciones. El entrevistado destaca que el sistema es intuitivo y se encuentra totalmente alineado con la realidad operativa de su agencia, permitiendo una gestión eficiente de guías, monitoreo de rutas en tiempo real y prevención de riesgos mediante puntos seguros y alertas automáticas ante cambios climáticos. Asimismo, resalta la utilidad de la sincronización asincrónica en zonas sin cobertura, la viabilidad del modelo de suscripción para pequeñas empresas, y califica como indispensables la administración de tours y el seguimiento en vivo, lo que ayuda a resolver problemas logísticos previos y a utilizar el historial de rutas para estructurar mejores itinerarios que maximicen la experiencia del cliente.
 
 **Entrevista de Validación 2:**
 
@@ -164,7 +166,7 @@ En esta sección se documentan las entrevistas de validación realizadas a los u
 | :--- | :--- |
 | **Entrevistador:** | Molina Vásquez Manuel Alejandro|
 | **Entrevistado:** | Kevyn Arnold Huerta Urribarri|
-| **Edad:** | 22|
+| **Edad:** | 22 años|
 | **Segmento:** | Turistas de Aventura|
 | **Fecha:** | 09/11/2026|
 | **Inicio de la entrevista:** | 00:00|
