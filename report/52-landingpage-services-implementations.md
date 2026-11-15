@@ -911,8 +911,8 @@ Siguiendo los lineamientos de evaluación del Sprint Review, se estableció el r
 
 #### *5.2.3.6. Services Documentation Evidence for Sprint Review*
 
-El backend de TourMate cuenta con documentación interactiva estandarizada bajo la especificación **OpenAPI 3.1**, y desplegada públicamente en la nube en el entorno de producción de :  
-**URL de Swagger UI en Producción:** [https://](https://)
+El backend de TourMate cuenta con documentación interactiva estandarizada bajo la especificación **OpenAPI 3.1**, y desplegada públicamente en la nube en el entorno de producción de Render:  
+**URL de Swagger UI en Producción:** [https://tourmate-platform-1.onrender.com/swagger/index.html](https://tourmate-platform-1.onrender.com/swagger/index.html)
 
 
 ##### Catálogo de Servicios RESTful y Endpoints Documentados:
@@ -947,7 +947,228 @@ Endpoints CRUD para el registro de ubicaciones asociadas a los incidentes (`Loca
 Endpoints CRUD para la calificación de tours de 1 a 5 estrellas (`Reviews`), con filtro opcional por tour, y para agregar, editar y eliminar los comentarios de cada reseña (`Comments`).
 
 ![Endpoints de Reseñas y Comentarios](../assets/images/sprint3-swagger-reviews.png)
-*Figura 5.21. Endpoints interactivos documentados para Reviews y Comments.*
+*Figura 5.21. Endpoints interactivos documentados para Reviews y Comments.* 
+
+**6. Endpoints de Gestión de Tours (Tour Management):**  
+Endpoints CRUD para el catálogo de tours de las agencias (`Tour`), con su título, descripción, duración, nivel de dificultad, precio y checkpoints.
+
+![Endpoints de Gestión de Tours](../assets/images/sprint3-swagger-tours.png)
+*Figura 5.22. Endpoints interactivos documentados para Tours.*
+
+##### Tabla de Endpoints Documentados
+
+Los Web Services aún se ejecutan en entorno local para este Sprint, por lo que la documentación se consulta en la URL local de Swagger UI: [http://localhost:5191/swagger](http://localhost:5191/swagger). Todas las rutas parten de la URL base `http://localhost:5191`, y los cuerpos de petición y de respuesta se envían en formato JSON.
+
+**IAM (Authentication, Tokens y Users)**
+
+| Verbo | Sintaxis de llamada | Parámetros | Acción | Respuesta |
+| :---: | :--- | :--- | :--- | :--- |
+| POST | `/api/v1/authentication/sign-up` | Body: `username`, `password` | Registra un nuevo usuario | `200 OK` con mensaje de confirmación |
+| POST | `/api/v1/authentication/sign-in` | Body: `username`, `password` | Inicia sesión | `200 OK` con `id`, `username` y `token` (JWT) |
+| POST | `/api/v1/tokens` | Body: `username`, `password` | Genera un token de autenticación | `200 OK` con `id`, `username` y `token` (JWT) |
+| POST | `/api/v1/users` | Body: `username`, `password` | Crea un usuario | `201 Created` con el usuario creado |
+| GET | `/api/v1/users` | — | Lista todos los usuarios | `200 OK` con la lista de usuarios |
+| GET | `/api/v1/users/{id}` | Path: `id` | Obtiene un usuario por su id | `200 OK` con el usuario, o `404 Not Found` |
+
+Ejemplo de respuesta de `POST /api/v1/authentication/sign-in`. Devuelve el identificador del usuario, su nombre y el token JWT que se usa en el botón *Authorize* para consumir los demás endpoints:
+
+```json
+{
+  "id": 1,
+  "username": "valeria",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+}
+```
+
+**Tour Monitoring (Active Tours)**
+
+| Verbo | Sintaxis de llamada | Parámetros | Acción | Respuesta |
+| :---: | :--- | :--- | :--- | :--- |
+| GET | `/api/v1/active-tours` | — | Lista las expediciones activas | `200 OK` con la lista |
+| GET | `/api/v1/active-tours/{activeTourId}` | Path: `activeTourId` | Obtiene una expedición activa | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/active-tours` | Body: `tourScheduleId`, `guideId`, `status`, `currentLatitude`, `currentLongitude`, `startedAt` | Inicia una expedición activa | `201 Created` con la expedición |
+| PUT | `/api/v1/active-tours/{activeTourId}` | Path: `activeTourId`. Body: `tourScheduleId`, `guideId`, `currentLatitude`, `currentLongitude` | Actualiza la expedición y su ubicación | `200 OK`, o `404 Not Found` |
+| DELETE | `/api/v1/active-tours/{activeTourId}` | Path: `activeTourId` | Elimina una expedición activa | `204 No Content`, o `404 Not Found` |
+
+Ejemplo de respuesta de `GET /api/v1/active-tours/1`. Muestra el estado de la expedición, la posición actual del guía y las fechas de inicio y fin:
+
+```json
+{
+  "id": 1,
+  "tourScheduleId": 3,
+  "guideId": 2,
+  "status": "IN PROGRESS",
+  "currentLatitude": -13.1631,
+  "currentLongitude": -72.5450,
+  "startedAt": "2026-11-15T14:00:00+00:00",
+  "finishedAt": null
+}
+```
+
+**Subscriptions and Payment Management (Plans, Subscriptions y Payments)**
+
+| Verbo | Sintaxis de llamada | Parámetros | Acción | Respuesta |
+| :---: | :--- | :--- | :--- | :--- |
+| GET | `/api/v1/plans` | — | Lista los planes de suscripción | `200 OK` con la lista |
+| GET | `/api/v1/plans/{id}` | Path: `id` | Obtiene un plan | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/plans` | Body: `name`, `priceAmount`, `priceCurrency` | Crea un plan | `201 Created`, o `400 Bad Request` |
+| PUT | `/api/v1/plans/{id}` | Path: `id`. Body: `name`, `priceAmount`, `priceCurrency` | Actualiza un plan | `200 OK`, `400` o `404` |
+| DELETE | `/api/v1/plans/{id}` | Path: `id` | Elimina un plan | `204 No Content`, o `404 Not Found` |
+| GET | `/api/v1/subscriptions` | — | Lista las suscripciones de las agencias | `200 OK` con la lista |
+| GET | `/api/v1/subscriptions/{id}` | Path: `id` | Obtiene una suscripción | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/subscriptions` | Body: `agencyId`, `planId`, `status`, `activatedAt` | Crea una suscripción | `201 Created`, o `400 Bad Request` |
+| PUT | `/api/v1/subscriptions/{id}` | Path: `id`. Body: `agencyId`, `planId`, `status`, `activatedAt` | Actualiza una suscripción | `200 OK`, `400` o `404` |
+| DELETE | `/api/v1/subscriptions/{id}` | Path: `id` | Elimina una suscripción | `204 No Content`, o `404 Not Found` |
+| GET | `/api/v1/payments` | — | Lista los pagos | `200 OK` con la lista |
+| GET | `/api/v1/payments/{id}` | Path: `id` | Obtiene un pago | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/payments` | Body: `agencyId`, `planId`, `amount`, `currency`, `status`, `requestedAt` | Registra un pago | `201 Created`, o `400 Bad Request` |
+| PUT | `/api/v1/payments/{id}` | Path: `id`. Body: `agencyId`, `planId`, `amount`, `currency`, `status`, `requestedAt` | Actualiza un pago | `200 OK`, `400` o `404` |
+| DELETE | `/api/v1/payments/{id}` | Path: `id` | Elimina un pago | `204 No Content`, o `404 Not Found` |
+
+Ejemplo de respuesta de `POST /api/v1/plans`. Devuelve el plan creado con su identificador, nombre y precio:
+
+```json
+{
+  "id": 1,
+  "name": "Plan Agencia Pro",
+  "priceAmount": 149.90,
+  "priceCurrency": "PEN"
+}
+```
+
+**Safety and Incident Management (Incidents y Locations)**
+
+| Verbo | Sintaxis de llamada | Parámetros | Acción | Respuesta |
+| :---: | :--- | :--- | :--- | :--- |
+| GET | `/api/v1/incidents` | — | Lista los incidentes | `200 OK` con la lista |
+| GET | `/api/v1/incidents/{id}` | Path: `id` | Obtiene un incidente | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/incidents` | Body: `activeTourId`, `reportedByUserId`, `description`, `latitude`, `longitude`, `status`, `severity`, `reporterRole`, entre otros | Reporta un incidente en campo | `201 Created` con el incidente |
+| PUT | `/api/v1/incidents/{id}` | Path: `id`. Body: mismos campos del incidente | Actualiza un incidente (estado, severidad, nota de resolución) | `200 OK`, o `404 Not Found` |
+| DELETE | `/api/v1/incidents/{id}` | Path: `id` | Elimina un incidente | `204 No Content`, o `404 Not Found` |
+| GET | `/api/v1/locations` | — | Lista los registros de ubicación | `200 OK` con la lista |
+| GET | `/api/v1/locations/{id}` | Path: `id` | Obtiene un registro de ubicación | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/locations` | Body: `incidentId`, `expeditionId`, `touristId`, `latitude`, `longitude`, `expectedLatitude`, `expectedLongitude`, `alerts`, `telemetry`, `wearables` | Registra la ubicación de un turista | `201 Created` con el registro |
+| PUT | `/api/v1/locations/{id}` | Path: `id`. Body: mismos campos del registro | Actualiza un registro de ubicación | `200 OK`, o `404 Not Found` |
+| DELETE | `/api/v1/locations/{id}` | Path: `id` | Elimina un registro de ubicación | `204 No Content`, o `404 Not Found` |
+
+Ejemplo de respuesta de `POST /api/v1/incidents`. Devuelve el incidente registrado con su ubicación, severidad, estado y la persona que lo reportó:
+
+```json
+{
+  "id": 1,
+  "uuid": "a3f1c2d4-5b6e-4f70-8a91-b2c3d4e5f607",
+  "activeTourId": 1,
+  "reportedByUserId": 2,
+  "description": "Turista con torcedura de tobillo en el sendero",
+  "latitude": -13.1631,
+  "longitude": -72.5450,
+  "reportedAt": "2026-11-15T15:30:00+00:00",
+  "status": "OPEN",
+  "severity": "MEDIUM",
+  "resolutionNote": "",
+  "reporterRole": "GUIDE"
+}
+```
+**Tour Management (Tours)**
+
+| Verbo | Sintaxis de llamada | Parámetros | Acción | Respuesta |
+| :---: | :--- | :--- | :--- | :--- |
+| GET | `/api/v1/tour` | — | Lista los tours | `200 OK` con la lista |
+| GET | `/api/v1/tour/{tourId}` | Path: `tourId` | Obtiene un tour con sus checkpoints | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/tour` | Body: `agencyId`, `title`, `description`, `duration`, `difficultyLevel`, `amount`, `currency` | Crea un tour | `201 Created` con el tour |
+| PUT | `/api/v1/tour/{tourId}` | Path: `tourId`. Body: `title`, `description`, `duration`, `difficultyLevel`, `amount`, `currency` | Actualiza un tour | `200 OK`, o `404 Not Found` |
+| DELETE | `/api/v1/tour/{tourId}` | Path: `tourId` | Elimina un tour | `204 No Content`, o `404 Not Found` |
+
+Ejemplo de respuesta de `GET /api/v1/tour/1`. Devuelve el tour con la agencia que lo ofrece, su estado y la lista de checkpoints del recorrido:
+
+```json
+{
+  "id": 1,
+  "agencyId": 1,
+  "title": "Caminata a Machu Picchu",
+  "status": "DRAFT",
+  "checkpoints": [
+    { "id": 1, "name": "Km 82", "xaxis": -13.2369, "yaxis": -72.3880, "order": 1 }
+  ]
+}
+```
+
+**Feedback and Tour Reviews (Reviews y Comments)**
+
+| Verbo | Sintaxis de llamada | Parámetros | Acción | Respuesta |
+| :---: | :--- | :--- | :--- | :--- |
+| GET | `/api/v1/reviews` | Query (opcional): `tourId` | Lista las reseñas, o solo las de un tour | `200 OK` con la lista y sus comentarios |
+| GET | `/api/v1/reviews/{reviewId}` | Path: `reviewId` | Obtiene una reseña con sus comentarios | `200 OK`, o `404 Not Found` |
+| POST | `/api/v1/reviews` | Body: `userId`, `tourId`, `rating` (1 a 5), `comment` (opcional) | Crea una reseña | `201 Created`, o `400 Bad Request` si la puntuación no está entre 1 y 5 |
+| PUT | `/api/v1/reviews/{reviewId}` | Path: `reviewId`. Body: `rating` | Actualiza la puntuación | `200 OK`, `400` o `404` |
+| DELETE | `/api/v1/reviews/{reviewId}` | Path: `reviewId` | Elimina la reseña y sus comentarios | `204 No Content`, o `404 Not Found` |
+| POST | `/api/v1/reviews/{reviewId}/comments` | Path: `reviewId`. Body: `content` | Agrega un comentario a la reseña | `201 Created`, `400` o `404` |
+| PUT | `/api/v1/reviews/{reviewId}/comments/{commentId}` | Path: `reviewId`, `commentId`. Body: `content` | Edita un comentario | `200 OK`, `400` o `404` |
+| DELETE | `/api/v1/reviews/{reviewId}/comments/{commentId}` | Path: `reviewId`, `commentId` | Elimina un comentario | `204 No Content`, o `404 Not Found` |
+
+Ejemplo de respuesta de `POST /api/v1/reviews`. Devuelve la reseña creada con su puntuación, la fecha de creación y la lista de comentarios asociados:
+
+```json
+{
+  "id": 1,
+  "userId": 1,
+  "tourId": 1,
+  "rating": 5,
+  "createdAt": "2026-11-13T18:23:24.7096758+00:00",
+  "comments": [
+    {
+      "id": 1,
+      "reviewId": 1,
+      "content": "Excelente tour, el guía fue muy amable",
+      "createdAt": "2026-11-13T18:23:24.7096758+00:00"
+    }
+  ]
+}
+```
+
+##### Evidencia de Interacción con Datos de Muestra
+
+Para validar la documentación, se ejecutaron peticiones desde Swagger UI con la opción *Try it out*, utilizando datos de muestra.
+
+**Registro e inicio de sesión:** se registró un usuario de prueba con `POST /api/v1/authentication/sign-up` y luego se inició sesión con `POST /api/v1/authentication/sign-in`. La respuesta `200 OK` devuelve el token JWT, que se ingresa en el botón *Authorize* para consumir el resto de endpoints.
+
+![Interacción con sign-in en Swagger UI](../assets/images/sprint3-swagger-signin-example.png)
+*Figura 5.22. Ejecución de POST /api/v1/authentication/sign-in con datos de muestra y respuesta 200 OK con el token.*
+
+**Creación de una reseña:** se envió `POST /api/v1/reviews` con `userId: 1`, `tourId: 1`, `rating: 5` y un comentario. La respuesta `201 Created` devuelve la reseña con su identificador y el comentario anidado.
+
+![Interacción con POST reviews en Swagger UI](../assets/images/sprint3-swagger-post-review-example.png)
+*Figura 5.23. Ejecución de POST /api/v1/reviews con datos de muestra y respuesta 201 Created.*
+
+**Consulta de reseñas:** se ejecutó `GET /api/v1/reviews`. La respuesta `200 OK` devuelve la lista de reseñas almacenadas en la base de datos MySQL, cada una con sus comentarios.
+
+![Interacción con GET reviews en Swagger UI](../assets/images/sprint3-swagger-get-reviews-example.png)
+*Figura 5.24. Ejecución de GET /api/v1/reviews y respuesta 200 OK con la lista de reseñas.*
+
+**Validación de datos:** se envió `POST /api/v1/reviews` con `rating: 9`. La respuesta `400 Bad Request` confirma que el servicio rechaza puntuaciones fuera del rango de 1 a 5.
+
+![Interacción con validación de rating en Swagger UI](../assets/images/sprint3-swagger-invalid-rating-example.png)
+*Figura 5.25. Ejecución de POST /api/v1/reviews con una puntuación inválida y respuesta 400 Bad Request.*
+
+##### Repositorio y Commits Relacionados con la Documentación
+
+**Repositorio de Web Services:** [https://github.com/axiom-apps-web/tourmate-platform](https://github.com/axiom-apps-web/tourmate-platform)
+
+| Commit ID | Autor | Descripción |
+| :---: | :--- | :--- |
+| `f1c99c3` | Giancarlo Verastigue | Estructura inicial del proyecto, IAM y configuración de OpenAPI y Swagger UI |
+| `361eb94` | Giancarlo Verastigue | Controlador y recursos de Active Tours |
+| `ef588ea` | Giancarlo Verastigue | Endpoints de actualización y eliminación de Active Tours |
+| `476b0b7` | Valeria Ysidro | Controlador, recursos y endpoints CRUD de Reviews y Comments |
+| `3f33602` | Manuel Alejandro Molina | Controlador de Incidents |
+| `34ee0d4` | Manuel Alejandro Molina | Controlador de Locations |
+| `c4b8daf` | Alison Segura | Controladores y recursos de Plans, Subscriptions y Payments |
+| `992297e` | Matias Carrillo | Controlador, recursos y endpoints CRUD de Tours |
+**6. Endpoints de Gestión de Tours (Tour Management):**  
+Endpoints CRUD para el catálogo de tours ofrecidos por las agencias (`Tours`).
+
+![Endpoints de Gestión de Tours](../assets/images/sprint3-swagger-tours.png)
+*Figura 5.22. Endpoints interactivos documentados para Tours.*
 ---
 
 #### *5.2.3.7. Software Deployment Evidence for Sprint Review*
