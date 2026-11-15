@@ -14,3 +14,8 @@
 |   2.0   | 14/09/2026 |   Molina Vasquez, Manuel Alejandro     | Desarrollo del capítulo 5.2                               |
 |   2.0   | 14/09/2026 |   Carrillo Acho, Matias Renato    | Desarrollo del capítulo 5.2                               |
 |   2.0   | 18/09/2026 |   Verastigue Martinez, Giancarlo Jose   | Desarrollo del capítulo 5.2                               |
+|   3.0   | 15/11/2026 |   Verastigue Martinez, Giancarlo Jose   | Desarrollo de la sección 5.2.3  del capítulo V                               |
+|   3.0   | 15/11/2026 |   Segura Guerra, Alison Ariana     | Desarrollo de la sección 5.2.3.5  y video demostrativo                               |
+|   3.0   | 15/11/2026 |   Ysidro Llashag, Valeria Milagros     | Desarrollo de la sección 5.2.3.6, registro de versiones y collaboration insights                               |
+|   3.0   | 15/11/2026 |   Molina Vasquez, Manuel Alejandro     | Desarrollo de las entrevistas de validación, student outcomes, conclusiones y anexos; corrección de URL e imágenes                               |
+|   3.0   | 15/11/2026 |   Carrillo Acho, Matias Renato    | Desarrollo del bounded context Tour Management en el backend                               |
