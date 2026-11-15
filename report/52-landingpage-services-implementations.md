@@ -915,40 +915,39 @@ El backend de TourMate cuenta con documentación interactiva estandarizada bajo 
 **URL de Swagger UI en Producción:** [https://](https://)
 
 
-##### Catálogo de Servicios RESTful y Endpoints Desplegados en Producción:
+##### Catálogo de Servicios RESTful y Endpoints Documentados:
 
-A continuación, se documenta la totalidad de los controladores y endpoints interactivos expuestos en Swagger UI en el servicio activo en la nube:
+A continuación, se documenta la totalidad de los controladores y endpoints interactivos expuestos en Swagger UI, organizados por bounded context:
 
-**1. Vista Panorámica General de la Plataforma y Autenticación:**  
-Muestra la cabecera del servicio, especificación OpenAPI 3.1, configuración del servidor en la nube y los endpoints iniciales de gestión de usuarios (`Users`) y generación de tokens de autenticación (`Tokens`).
+**1. Vista General de la Plataforma y Monitoreo de Expediciones (Tour Monitoring):**  
+Muestra la cabecera del servicio con la especificación OpenAPI 3.1, la selección del servidor, el botón de autorización mediante token y los endpoints CRUD para la administración del ciclo de vida de las expediciones activas (`Active Tours`).
 
-![Vista Panorámica de Swagger UI en Producción](../assets/images/sprint3-swagger-ui-overview.png)
-*Figura 5.17. Vista general de la especificación OpenAPI TourMate Platform.*
+![Vista General de Swagger UI y Endpoints de Active Tours](../assets/images/sprint3-swagger-overview.png)
+*Figura 5.17. Vista general de la especificación OpenAPI de TourMate Platform y endpoints de Active Tours.*
 
-**2. Endpoints de Usuarios, Tokens e Incidentes:**  
-Endpoints para registro y consulta de usuarios (`Users`), autenticación de credenciales (`Tokens`) y gestión completa de incidentes de seguridad en campo (`Incidents`).
+**2. Endpoints de Pagos y Planes Comerciales (Subscriptions and Payment Management):**  
+Endpoints CRUD para el registro de pagos de las agencias (`Payments`) y para el catálogo de planes de suscripción (`Plans`).
 
-![Endpoints de Usuarios, Tokens e Incidentes](../assets/images/sprint3-swagger-users-incidents.png)
-*Figura 5.18. Endpoints interactivos documentados para Users, Tokens e Incident Management.*
+![Endpoints de Pagos y Planes](../assets/images/sprint3-swagger-payments-plans.png)
+*Figura 5.18. Endpoints interactivos documentados para Payments y Plans.*
 
-**3. Endpoints de Planes Comerciales y Monitoreo de Expediciones:**  
-Endpoints CRUD para el catálogo de planes de suscripción de agencias (`Plans`) y administración del ciclo de vida de expediciones activas (`ActiveTours`).
+**3. Endpoints de Suscripciones e Incidentes (Subscriptions and Payment Management / Safety and Incident Management):**  
+Endpoints CRUD para el ciclo de vida de las suscripciones de las agencias (`Subscriptions`) y para la gestión de incidentes de seguridad reportados en campo (`Incidents`).
 
-![Endpoints de Planes y Expediciones Activas](../assets/images/sprint3-swagger-plans-activetours.png)
-*Figura 5.19. Endpoints interactivos documentados para Plans y Active Tours.*
+![Endpoints de Suscripciones e Incidentes](../assets/images/sprint3-swagger-subscriptions-incidents.png)
+*Figura 5.19. Endpoints interactivos documentados para Subscriptions e Incidents.*
 
-**4. Endpoints de Transacciones de Pago, Reseñas y Comentarios:**  
-Endpoints para el libro mayor de pagos de agencias (`Payments`), calificación de experiencias turísticas (`Reviews`) y comentarios colaborativos (`Comments`).
+**4. Endpoints de Ubicaciones, Autenticación y Usuarios (Safety and Incident Management / IAM):**  
+Endpoints CRUD para el registro de ubicaciones asociadas a los incidentes (`Locations`), registro e inicio de sesión (`Authentication`), generación de tokens de acceso (`Tokens`) y consulta de usuarios (`Users`).
 
-![Endpoints de Pagos, Reseñas y Comentarios](../assets/images/sprint3-swagger-payments-reviews.png)
-*Figura 5.20. Endpoints interactivos documentados para Payments, Reviews y Comments.*
+![Endpoints de Ubicaciones, Autenticación y Usuarios](../assets/images/sprint3-swagger-locations-iam.png)
+*Figura 5.20. Endpoints interactivos documentados para Locations, Authentication, Tokens y Users.*
 
-**5. Endpoints de Telemetría de Seguridad, Roles, Suscripciones y Tours:**  
-Endpoints para ingesta de coordenadas y telemetría (`Safety Monitoring`), asignación de roles IAM (`Roles`), ciclo de vida y cancelación de suscripciones (`Subscriptions`) y catálogo principal de tours (`Tours`).
+**5. Endpoints de Reseñas y Comentarios (Feedback and Tour Reviews):**  
+Endpoints CRUD para la calificación de tours de 1 a 5 estrellas (`Reviews`), con filtro opcional por tour, y para agregar, editar y eliminar los comentarios de cada reseña (`Comments`).
 
-![Endpoints de Seguridad, Roles, Suscripciones y Tours](../assets/images/sprint3-swagger-subscriptions-tours.png)
-*Figura 5.21. Endpoints interactivos documentados para Safety Monitoring, Roles, Subscriptions y Tour Management.*
-
+![Endpoints de Reseñas y Comentarios](../assets/images/sprint3-swagger-reviews.png)
+*Figura 5.21. Endpoints interactivos documentados para Reviews y Comments.*
 ---
 
 #### *5.2.3.7. Software Deployment Evidence for Sprint Review*
