@@ -957,8 +957,7 @@ Endpoints CRUD para el catálogo de tours de las agencias (`Tour`), con su títu
 
 ##### Tabla de Endpoints Documentados
 
-Los Web Services aún se ejecutan en entorno local para este Sprint, por lo que la documentación se consulta en la URL local de Swagger UI: [http://localhost:5191/swagger](http://localhost:5191/swagger). Todas las rutas parten de la URL base `http://localhost:5191`, y los cuerpos de petición y de respuesta se envían en formato JSON.
-
+La documentación de los Web Services se encuentra desplegada y puede consultarse en Swagger UI: [https://tourmate-platform-1.onrender.com/swagger/index.html](https://tourmate-platform-1.onrender.com/swagger/index.html). Todas las rutas parten de la URL base `https://tourmate-platform-1.onrender.com`, y los cuerpos de petición y de respuesta se envían en formato JSON.
 **IAM (Authentication, Tokens y Users)**
 
 | Verbo | Sintaxis de llamada | Parámetros | Acción | Respuesta |
@@ -1164,11 +1163,6 @@ Para validar la documentación, se ejecutaron peticiones desde Swagger UI con la
 | `34ee0d4` | Manuel Alejandro Molina | Controlador de Locations |
 | `c4b8daf` | Alison Segura | Controladores y recursos de Plans, Subscriptions y Payments |
 | `992297e` | Matias Carrillo | Controlador, recursos y endpoints CRUD de Tours |
-**6. Endpoints de Gestión de Tours (Tour Management):**  
-Endpoints CRUD para el catálogo de tours ofrecidos por las agencias (`Tours`).
-
-![Endpoints de Gestión de Tours](../assets/images/sprint3-swagger-tours.png)
-*Figura 5.22. Endpoints interactivos documentados para Tours.*
 ---
 
 #### *5.2.3.7. Software Deployment Evidence for Sprint Review*
