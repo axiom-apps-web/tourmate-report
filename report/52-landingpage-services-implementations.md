@@ -1309,6 +1309,11 @@ El repositorio del Web Service en Spring Boot registró la mayor densidad de act
 
 - **Sobre la definición de requerimientos:** La especificación inicial de *User Stories* y criterios de aceptación permitió transformar necesidades de usuarios en funcionalidades concretas, proporcionando una guía estructurada para el desarrollo de los siguientes sprints y reduciendo ambigüedades en la planificación técnica.
 
+- **Sobre el frontend:** La aplicación web permitió reunir en una interfaz interactiva los módulos de gestión de tours, monitoreo, seguridad, suscripciones, reseñas y perfiles. Su integración con los servicios de la API facilitó presentar los flujos principales de TourMate y validar la interacción desde la perspectiva del usuario.
+
+- **Sobre el backend:** La implementación de servicios REST y su conexión con MySQL permitió procesar operaciones de creación y consulta, persistir información y organizar las funcionalidades según los contextos del dominio. La documentación con OpenAPI facilitó comprender y verificar los contratos disponibles para integrar el frontend con el backend.
+
+
 ### Bibliografía
 
 
