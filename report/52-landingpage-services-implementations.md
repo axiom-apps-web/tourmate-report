@@ -1275,7 +1275,7 @@ Durante el Sprint 3, el equipo mantuvo una participación activa y coordinada a 
 ##### 1. Repositorio Landing Page (`tourmate-landing`)
 La actividad en la página de aterrizaje se concentró en la integración de los videos institucionales (*About-the-Team* y *About-the-Product*), la adaptación responsiva para dispositivos móviles y la actualización de los textos de la propuesta de valor. La gráfica refleja commits organizados y revisiones puntuales que permitieron desplegar las mejoras de forma continua vía GitHub Pages.
 
-![Métricas de Colaboración - Landing Page Sprint 3](../assets/images/landing-sprint3.png)
+![Métricas de Colaboración - Landing Page Sprint 3](../assets/images/contribuciones-landing3.png)
 *Figura 5.32. Registro de actividad y frecuencia de commits en el repositorio de la Landing Page.*
 
 ##### 2. Repositorio Frontend (`tourmate-web-application`)
