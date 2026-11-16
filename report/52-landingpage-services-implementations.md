@@ -683,7 +683,8 @@ El objetivo principal de este tercer Sprint se dividió en dos frentes complemen
 
 **Trello link:** [https://trello.com/b/GFgdnufq/tourmate-sprint-3](https://trello.com/b/GFgdnufq/tourmate-sprint-3)
 
-![Sprint Backlog 3](../assets/images/s3-sprint-backlog.png)
+![s3-sprint-backlog.png](../assets/images/s3-sprint-backlog.png)
+
 *Figura 5.7. Vista panorámica del Sprint Backlog 3 en Trello reflejando las tareas de desarrollo y flujo Scrum.*
 
 | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
