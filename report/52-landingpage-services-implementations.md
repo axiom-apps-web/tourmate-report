@@ -1175,9 +1175,9 @@ A fin de facilitar la evaluación de los entregables y garantizar el acceso dire
 
 | Componente | Entorno / Plataforma | URL de Producción | Repositorio GitHub | Estado |
 | :--- | :--- | :--- | :--- | :---: |
-| **Landing Page** | GitHub Pages / Hosting | https://axiom-daos.github.io/tourmate-landing/ | [https://github.com/axiom-apps-web/tourmate-landing](https://github.com/axiom-apps-web/tourmate-landing) | *Desplegado* |
+| **Landing Page** | GitHub Pages / Hosting | https://axiom-apps-web.github.io/tourmate-landing/ | [https://github.com/axiom-apps-web/tourmate-landing](https://github.com/axiom-apps-web/tourmate-landing) | *Desplegado* |
 | **Frontend Web Application** | Firebase Hosting / Cloud | https://tourmate-axiom.web.app/home | [https://github.com/axiom-apps-web/tourmate-web-application](https://github.com/axiom-apps-web/tourmate-web-application) | *Desplegado* |
-| **Backend RESTful API & Swagger UI** | Render Cloud Services | https://tourmate-platform | [https://github.com/axiom-apps-web/tourmate-platform](https://github.com/axiom-apps-web/tourmate-platform) | *Desplegado* |
+| **Backend RESTful API & Swagger UI** | Render Cloud Services | https://tourmate-platform-1.onrender.com/swagger/index.htmlm | [https://github.com/axiom-apps-web/tourmate-platform](https://github.com/axiom-apps-web/tourmate-platform) | *Desplegado* |
 
 ##### Credenciales de Acceso para Evaluación (Cuentas Demo)
 
@@ -1210,14 +1210,14 @@ Dado que la integración continua (CI/CD) ya estaba configurada nativamente con 
 ![Sección About the Team en Landing Page](../assets/images/landing-at.png)
 *Figura 5.24. Sección integrada About the Team en la Landing Page con perfil del equipo.*
 
-URL: [https://axiom-daos.github.io/tourmate-landing/](https://axiom-daos.github.io/tourmate-landing/)
+URL: [https://axiom-apps-web.github.io/tourmate-landing/](https://axiom-apps-web.github.io/tourmate-landing/)
 
 #### 2. Web Application - Frontend (Firebase Hosting)
 La aplicación web interactiva (Frontend desarrollado en Vue) ya contaba con su infraestructura configurada en Firebase Hosting desde el Sprint 2. En este ciclo, se implementó la lógica de negocio restante y se aplicaron mejoras de usabilidad (UI/UX) basadas en el feedback del docente.
 
 **Proceso de Despliegue:**
 Al tratarse de una actualización sobre un servicio ya aprovisionado, el despliegue consistió en la compilación local optimizada y la subida de los nuevos artefactos mediante la interfaz de línea de comandos (CLI) de Firebase:
-1.  **Build:** Se compiló el proyecto para producción ejecutando `ng build`, generando los archivos estáticos optimizados en la carpeta `dist`.
+1.  **Build:** Se compiló el proyecto para producción ejecutando `npm run  build`, generando los archivos estáticos optimizados.
 2.  **Deploy:** Se ejecutó el comando `firebase deploy --only hosting` para subir la nueva versión a los servidores de Google.
 
 ![Compilación de Producción en Vue](../assets/images/web-build-2.png)
@@ -1229,11 +1229,11 @@ Al tratarse de una actualización sobre un servicio ya aprovisionado, el desplie
 ![Interfaz de Web Application Desplegada](../assets/images/web-sprint3.png)
 *Figura 5.27. Interfaz funcional de la Web Application desplegada en producción sobre Firebase Hosting.*
 
-URL: [https://tourmate-axiom.web.app/home](https://thttps://tourmate-axiom.web.app/home)
+URL: [https://tourmate-axiom.web.app/home](https://tourmate-axiom.web.app/home)
 
 
 #### 3. Web Services y Base de Datos (Render)
-Para el despliegue del backend real y la base de datos relacional de TourMate se utilizó la plataforma en la nube **Render**, aprovisionando tanto la instancia de MySQL como el servicio web RESTful desarrollado en Spring Boot 3 con Java 21.
+Para el despliegue del backend real y la base de datos relacional de TourMate se utilizó la plataforma en la nube **Render**, aprovisionando tanto la instancia de MySQL como el servicio web RESTful desarrollado en ASP.NET.
 
 **Paso 1: Despliegue de la Base de Datos (MySQL)**
 1. En el dashboard de Render se creó un nuevo servicio seleccionando **New > MySQL** dentro del proyecto TourMate.
@@ -1264,7 +1264,7 @@ Para el despliegue del backend real y la base de datos relacional de TourMate se
 ![Verificación de Swagger UI en Producción](../assets/images/web-services-swagger.png)
 *Figura 5.31. Verificación de la disponibilidad de la API y Swagger UI en el dominio de producción.*
 
-URL: [https://tourmate-platform.onrender.com/swagger-ui/index.html#](https://tourmate-platform.onrender.com/swagger-ui/index.html#)
+URL: [https://tourmate-platform-1.onrender.com/swagger/index.html](https://tourmate-platform-1.onrender.com/swagger/index.html)
 
 ---
 
